@@ -10,8 +10,13 @@
 
 Las principales herramientas y lenguajes empleados en esta asignatura:
 
-* **Lenguaje:** Java
-* **Entorno de Desarrollo (IDE):** Eclipse
-* **Control de Versiones:** Git & GitHub
+* **Lenguaje:**
+![Java](https://jsdelivr.net) **Java**
 
+* **Entorno de Desarrollo (IDE):**
+![Eclipse](https://jsdelivr.net) **Eclipse**
+
+* **Control de Versiones:**
+![Git](https://jsdelivr.net) **Git**  
+![GitHub](https://jsdelivr.net) **GitHub**  
 ---
