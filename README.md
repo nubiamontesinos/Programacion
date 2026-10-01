@@ -10,13 +10,11 @@
 
 Las principales herramientas y lenguajes empleados en esta asignatura:
 
-* **Lenguaje:**
-![Java](https://jsdelivr.net) **Java**
+### Lenguaje
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="32" height="32" align="middle" /> **Java**
 
-* **Entorno de Desarrollo (IDE):**
-![Eclipse](https://jsdelivr.net) **Eclipse**
+### Entorno de Desarrollo (IDE)
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eclipse/eclipse-original.svg" alt="Eclipse" width="32" height="32" align="middle" /> **Eclipse**
 
-* **Control de Versiones:**
-![Git](https://jsdelivr.net) **Git**  
-![GitHub](https://jsdelivr.net) **GitHub**  
----
+### Control de Versiones
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="32" height="32" align="middle" /> **Git** &nbsp;&nbsp;&nbsp;&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="32" height="32" align="middle" /> **GitHub**
