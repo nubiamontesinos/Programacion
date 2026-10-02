@@ -14,26 +14,26 @@ public class Ejercicio4 {
 		System.out.println("HORARIO DE CLASES - 1º DAM (IES PLAYAMAR)\n");
 		
 		// días semana (%n salto de línea)
-		System.out.printf("%-12s %-15s %-15s %-15s %-15s %-15s%n", "Horas", "Lunes", "Martes", "Miérc.", "Jueves", "Viernes");
+		System.out.printf("%-15s %-15s %-15s %-15s %-15s %-15s%n", "Horas", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes");
 		System.out.println("--------------------------------------------------------------------------------------------------");
 		
 		// 15:15 - 16:15
-		System.out.printf("%-12s %-15s %-15s %-15s %-15s %-15s%n", "15:15 - 16:15", "BDDAM", "SIDAM", "BDDAM", "SIDAM", "LMDAM");
+		System.out.printf("%-15s %-15s %-15s %-15s %-15s %-15s%n", "15:15 - 16:15", "BDDAM", "SIDAM", "BDDAM", "SIDAM", "LMDAM");
 		
 		// 16:15 - 17:15
-		System.out.printf("%-12s %-15s %-15s %-15s %-15s %-15s%n", "16:15 - 17:15", "PROG", "SIDAM", "BDDAM", "SIDAM", "LMDAM");
+		System.out.printf("%-15s %-15s %-15s %-15s %-15s %-15s%n", "16:15 - 17:15", "PROG", "SIDAM", "BDDAM", "SIDAM", "LMDAM");
 		
 		// 17:15 - 18:15
-		System.out.printf("%-12s %-15s %-15s %-15s %-15s %-15s%n", "17:15 - 18:15", "PROG", "SIDAM", "EDDAM", "SOS", "LMDAM");
+		System.out.printf("%-15s %-15s %-15s %-15s %-15s %-15s%n", "17:15 - 18:15", "PROG", "SIDAM", "EDDAM", "SOS", "LMDAM");
 		
 		// 18:30 - 19:30 (y recreo de 18:15-18:30)
-		System.out.printf("%-12s %-15s %-15s %-15s %-15s %-15s%n", "18:30 - 19:30", "IPE1", "BDDAM", "EDDAM", "DIGFP", "EDDAM");
+		System.out.printf("%-15s %-15s %-15s %-15s %-15s %-15s%n", "18:30 - 19:30", "IPE1", "BDDAM", "EDDAM", "DIGFP", "EDDAM");
 		
 		// 19:30 - 20:30
-		System.out.printf("%-12s %-15s %-15s %-15s %-15s %-15s%n", "19:30 - 20:30", "IPE1", "BDDAM", "PROG", "PROG", "PROG");
+		System.out.printf("%-15s %-15s %-15s %-15s %-15s %-15s%n", "19:30 - 20:30", "IPE1", "BDDAM", "PROG", "PROG", "PROG");
 		
 		// 20:30 - 21:30
-		System.out.printf("%-12s %-15s %-15s %-15s %-15s %-15s%n", "20:30 - 21:30", "IPE1", "BDDAM", "PROG", "PROG", "PROG");
+		System.out.printf("%-15s %-15s %-15s %-15s %-15s %-15s%n", "20:30 - 21:30", "IPE1", "BDDAM", "PROG", "PROG", "PROG");
 		
 	}
 }
