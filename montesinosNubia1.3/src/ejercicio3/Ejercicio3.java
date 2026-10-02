@@ -22,9 +22,12 @@ public class Ejercicio3 {
 		System.out.println("Dame otro número entero: ");
 		int num2 = teclado.nextInt();
 		
-		int num1Mod = num2;
-		int num2Mod = num1;
-		System.out.println("Primer número: "+num1Mod+ "\nSegundo número: "+num2Mod);
+		// Al sumar num1+num2 resto la cantidad del número contrario, y así intercambio los valores en las nuevas asignaciones
+		num1 = num1+num2;
+		num2 = num1-num2;
+		num1 = num1-num2;
+		
+		System.out.println("Primer número: "+num1+ "\nSegundo número: "+num2);
 		
 		
 	}
