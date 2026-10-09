@@ -11,8 +11,8 @@ public class Ejercicio11 {
 		// TODO Auto-generated method stub
 
 		float baseImponible = 100f;
-		float iva = 0.21f;
-		float totalFactura = (baseImponible*iva)+baseImponible;
+		final float IVA = 0.21f; // lo pongo como K porque  me refiero al IVA 21%
+		float totalFactura = (baseImponible*IVA)+baseImponible;
 		
 		System.out.println("Total de la factura: "+totalFactura);
 		

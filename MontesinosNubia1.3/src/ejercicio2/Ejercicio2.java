@@ -18,9 +18,11 @@ public class Ejercicio2 {
 		System.out.println("Cantidad de euro a transformar en pesetas: ");
 		double cantidadEuros= teclado.nextFloat();
 		
-		double cantidadPesetas = cantidadEuros*(166.386);
+		final float PESETAS = 166.386f;
 		
-		System.out.println(cantidadEuros+" € es igual a "+cantidadPesetas+" pesetas");
+		double cantidadPesetas = cantidadEuros*(PESETAS);
+		
+		System.out.printf("%.3f € es igual a %.2f pesetas",cantidadEuros, cantidadPesetas);
 	}
 
 }
