@@ -10,6 +10,7 @@ Fecha: 14/10/26
 package ejercicio7;
 
 import java.util.Scanner;
+import java.util.Random;
 
 public class Ejercicio7 {
 	
@@ -17,6 +18,26 @@ public class Ejercicio7 {
 		
 		Scanner teclado=new Scanner(System.in);
 		
-		final NUMERO=5;
+		Random random = new Random();
+		int numeroAleatorio = random.nextInt(1,51);
+		
+		int numero=0;
+		
+		while (!(numero==numeroAleatorio)) {
+			System.out.println("Intenta adivinar el número: ");
+			 numero = teclado.nextInt();
+			 
+			 if (numero > numeroAleatorio) {
+					System.out.println(numero+" es > que el número a adivinar.");
+				}
+				else if (numero < numeroAleatorio) {
+					System.out.println(numero+" es < que el número a adivinar.");
+				}
+				else {
+					System.out.println("FELICIDADES. Lo has adivinado ("+numero+")");
+				}
+		}
+		
 	}
+
 }
