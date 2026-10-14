@@ -1,10 +1,13 @@
 /*
- * Objetivo: pedir nombre, apellidos, ciclo Formativo, nota academica (entero) y mostrar datos con nota 
+ * Objetivo: pedir nombre, apellidos, ciclo Formativo, nota academica (entero) y mostrar datos con nota:
  * insuficiente
  * suficiente
  * bien
  * notable
  * sobresaliente
+ * 
+ * Autor: Nubia Montesinos
+ * Fecha: 14/10/26
  */
 package ejercicio5;
 
@@ -15,25 +18,36 @@ public class Ejercicio5 {
 		
 		Scanner teclado=new Scanner(System.in);
 		
-		System.out.println("Dime tu nombre: ");
+		System.out.print("Dime tu nombre: ");
 		String nombre = teclado.nextLine();
 		
-		System.out.println("Dime tu apellidos: ");
+		System.out.print("Dime tu apellidos: ");
 		String apellidos = teclado.nextLine();
 		
-		System.out.println("Dime tu ciclo formativo: ");
+		System.out.print("Dime tu ciclo formativo: ");
 		String cicloFormativo = teclado.nextLine();
 		
-		System.out.println("Dime tu nombre: ");
+		System.out.print("Dime tu nota: ");
 		int nota = teclado.nextInt();
 		
-		System.out.println("Nombre: "+nombre+"\nApellidos: "+apellidos+"\nCiclo Formativo: "+cicloFormativo+"Nota académica: "+nota);
+		System.out.println("\nNombre: "+nombre+"\nApellidos: "+apellidos+"\nCiclo Formativo: "+cicloFormativo+"\nNota académica: "+nota);
 		
-		if (nota <5) {
-			System.out.print("(Insuficiente)");
-		}
-		else (nota <6) {
-			System.out.print("(Insuficiente)");
+		if (nota  >0 && nota<10) {
+			if (nota <5) {
+				System.out.print("(Insuficiente)");
+			}
+			else if (nota <6) {
+				System.out.print("(Suficiente)");
+			}
+			else if (nota <7) {
+				System.out.print("Bien");
+			}
+			else if (nota <9) {
+				System.out.print("Notable");
+			}
+			else {
+				System.out.print("Sobresaliente");
+			}
 		}
 	}
 
